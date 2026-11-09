@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Morgan",
+    "position": "Chief Executive Officer",
+    "description": "Leading the company with a focus on innovation and long-term growth.",
+    "image": "assets/images/team/alex-morgan.webp",
+    "imageAlt": "Portrait of Alex Morgan",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Olivia Bennett",
+    "position": "Head of Technology",
+    "description": "Developing practical digital solutions for modern businesses.",
+    "image": "assets/images/team/olivia-bennett.webp",
+    "imageAlt": "Portrait of Olivia Bennett",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Daniel Carter",
+    "position": "Cybersecurity Specialist",
+    "description": "Helping businesses protect their digital infrastructure.",
+    "image": "assets/images/team/daniel-carter.webp",
+    "imageAlt": "Portrait of Daniel Carter",
+    "featured": true
+  }
+]

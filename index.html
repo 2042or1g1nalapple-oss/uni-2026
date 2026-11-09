@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The University Project</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script defer type="module" src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero__background"></div>
+        <div class="hero__overlay"></div>
+
+        <div class="hero__content">
+          <h1 class="hero__title">We Make Business Happen.</h1>
+
+          <p class="hero__description">
+            Transforming tomorrow's opportunities into yesterday's success
+            stories. Discover innovative solutions for your business with us.
+          </p>
+
+          <form class="hero__search">
+            <input
+              type="search"
+              name="search"
+              placeholder="What are you looking for?"
+              aria-label="Search the website"
+            />
+          </form>
+        </div>
+      </section>
+      <section class="about-preview" id="about">
+        <div class="about-preview__content">
+          <span class="about-preview__eyebrow"> WHO WE ARE </span>
+
+          <h2 class="about-preview__title fade-in-left">
+            Building a better future,
+            <span>one idea at a time.</span>
+          </h2>
+
+          <p
+            class="about-preview__description fade-in-left"
+            style="--animation-delay: 100ms"
+          >
+            We believe that every great business starts with an ambitious idea.
+            Our mission is to turn possibilities into opportunities through
+            innovation, creativity, and a little bit of business magic.
+          </p>
+
+          <p
+            class="about-preview__description fade-in-left"
+            style="--animation-delay: 200ms"
+          >
+            From bold strategies to extraordinary solutions, we're here to help
+            businesses discover what's next.
+          </p>
+
+          <div class="about-preview__actions" id="about-actions"></div>
+        </div>
+
+        <div class="about-preview__visual">
+          <div class="about-preview__decoration">
+            <span class="about-preview__decoration-circle"></span>
+
+            <div
+              class="about-preview__card about-preview__card--main fade-in-right"
+            >
+              <span class="about-preview__card-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="about-preview__card-icon"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3Z"
+                  />
+                  <path d="M5 3v4" />
+                  <path d="M3 5h4" />
+                  <path d="M19 14v4" />
+                  <path d="M17 16h4" />
+                </svg>
+              </span>
+              <span class="about-preview__card-label">OUR PHILOSOPHY</span>
+              <strong>Think bigger.</strong>
+              <strong>Do better.</strong>
+              <strong>Be different.</strong>
+            </div>
+
+            <div
+              class="about-preview__card about-preview__card--floating fade-in-right"
+              style="--animation-delay: 100ms"
+            >
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                  <path
+                    d="M15.09 14a6 6 0 1 0-6.18 0c.55.45.91 1.08.91 1.75V17h4v-1.25c0-.67.36-1.3.91-1.75Z"
+                  />
+                </svg>
+              </span>
+              <div>
+                <strong>Innovation</strong>
+                <small>Ideas without limits</small>
+              </div>
+            </div>
+
+            <div class="about-preview__visual-caption">
+              <span>IDEAS INTO ACTION</span>
+              <span>EST. 2026</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services-preview" id="services">
+        <div class="services-preview__header">
+          <span class="services-preview__eyebrow">WHAT WE DO</span>
+
+          <h2 class="services-preview__title fade-in-left">
+            Solutions for a
+            <span>business without limits.</span>
+          </h2>
+
+          <p
+            class="services-preview__description fade-in-right"
+            style="--animation-delay: 100ms"
+          >
+            We combine creativity, technology, and questionable amounts of
+            coffee to help businesses reach their full potential.
+          </p>
+        </div>
+
+        <div class="services-preview__grid">
+          <article
+            class="service-card fade-in-left"
+            style="--animation-delay: 200ms"
+          >
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v4" />
+                <path d="M10 7h4" />
+                <path d="M9 18h6" />
+                <path d="M10 22h4" />
+                <path
+                  d="M15 14a6 6 0 1 0-6 0c.6.4 1 1.1 1 2v2h4v-2c0-.9.4-1.6 1-2Z"
+                />
+              </svg>
+            </div>
+
+            <h3>Creative Strategy</h3>
+
+            <p>
+              Turning random thoughts into brilliant business strategies.
+              Sometimes we even know what we're doing.
+            </p>
+          </article>
+
+          <article
+            class="service-card fade-in-top"
+            style="--animation-delay: 300ms"
+          >
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="7" height="7" rx="1" />
+                <rect x="14" y="3" width="7" height="7" rx="1" />
+                <rect x="14" y="14" width="7" height="7" rx="1" />
+                <rect x="3" y="14" width="7" height="7" rx="1" />
+              </svg>
+            </div>
+
+            <h3>Digital Solutions</h3>
+
+            <p>
+              Modern digital experiences designed to make complicated things
+              look surprisingly simple.
+            </p>
+          </article>
+
+          <article
+            class="service-card fade-in-bottom"
+            style="--animation-delay: 400ms"
+          >
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m3 17 6-6 4 4 8-8" />
+                <path d="M15 7h6v6" />
+              </svg>
+            </div>
+
+            <h3>Business Growth</h3>
+
+            <p>
+              Helping ambitious organizations discover new opportunities and
+              achieve statistically impressive progress.
+            </p>
+          </article>
+
+          <article
+            class="service-card fade-in-right"
+            style="--animation-delay: 500ms"
+          >
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="3" />
+                <path
+                  d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-1.8 1.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5v.1h-2.6v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1-1.8-1.8.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H6.4v-2.6h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1 1.8-1.8.1.1a1.7 1.7 0 0 0 1.9.3 1.7 1.7 0 0 0 1-1.5v-.1H15v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1 1.8 1.8-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.5 1h.1V14h-.1a1.7 1.7 0 0 0-1.5 1Z"
+                />
+              </svg>
+            </div>
+
+            <h3>Business Consulting</h3>
+
+            <p>
+              Expert advice, innovative thinking, and occasionally reminding
+              everyone to check their email.
+            </p>
+          </article>
+        </div>
+
+        <div class="services-preview__actions" id="services-actions"></div>
+      </section>
+      <section class="featured-products" id="products">
+        <div class="featured-products__header">
+          <div>
+            <span class="section-eyebrow fade-in-left"> WHAT WE OFFER </span>
+
+            <h2 class="fade-in-left">Products designed to move you forward.</h2>
+
+            <p class="fade-in-right">
+              Discover carefully selected solutions that make everyday work
+              smarter, simpler, and more productive.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="featured-products__grid"
+          id="featured-products"
+          aria-live="polite"
+        >
+          <!-- Products will be rendered here -->
+        </div>
+
+        <div class="featured-products__actions" id="products-actions"></div>
+      </section>
+      <section class="featured-news" id="news">
+        <div class="featured-news__header">
+          <div class="featured-news__heading">
+            <span class="section-eyebrow fade-in-left"> LATEST UPDATES </span>
+
+            <h2 class="fade-in-left">News, ideas, and perspectives.</h2>
+
+            <p class="fade-in-right">
+              Stay informed about our latest announcements, business insights,
+              and developments.
+            </p>
+          </div>
+        </div>
+
+        <div class="featured-news__grid" id="featured-news" aria-live="polite">
+          <!-- News articles will be rendered here -->
+        </div>
+
+        <div class="featured-news__actions" id="news-actions"></div>
+      </section>
+      <section class="team-preview" id="team">
+        <div class="team-preview__header">
+          <span class="section-eyebrow">MEET OUR TEAM</span>
+
+          <h2 class="fade-in-left">The people behind our work.</h2>
+
+          <p class="fade-in-right">
+            Meet the talented people working together to bring ideas to life.
+          </p>
+        </div>
+
+        <div class="team-preview__grid" id="featured-team" aria-live="polite">
+          <!-- Team members will be rendered here -->
+        </div>
+
+        <div class="team-preview__actions" id="team-actions"></div>
+      </section>
+      <section class="contact-cta" aria-labelledby="contact-cta-title">
+        <div class="contact-cta__content">
+          <span class="section-eyebrow fade-in-top">LET'S WORK TOGETHER</span>
+
+          <h2 class="fade-in-left" id="contact-cta-title">
+            Have a project in mind?
+          </h2>
+
+          <p class="fade-in-right">
+            Let's discuss your ideas and explore how we can help turn them into
+            reality.
+          </p>
+
+          <div class="contact-cta__actions" id="contact-cta-actions"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <a href="index.html" class="site-footer__logo"> Your Company </a>
+
+          <p>
+            Creating innovative solutions that help businesses grow, adapt, and
+            move forward.
+          </p>
+
+          <div class="site-footer__socials" aria-label="Social media">
+            <!-- Instagram -->
+            <span class="site-footer__social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+              </svg>
+            </span>
+
+            <!-- Facebook -->
+            <span class="site-footer__social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.5v3h2.6v8z"
+                />
+              </svg>
+            </span>
+
+            <!-- LinkedIn -->
+            <span class="site-footer__social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M5.2 3a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4ZM3.3 9h3.8v12H3.3zm6.1 0H13v1.6h.1A4 4 0 0 1 16.7 8c3.9 0 4.6 2.5 4.6 5.7V21h-3.8v-6.5c0-1.6 0-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V21H9.4z"
+                />
+              </svg>
+            </span>
+
+            <!-- YouTube -->
+            <span class="site-footer__social-icon" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M23 7.1a3 3 0 0 0-2.1-2.1C19 4.5 12 4.5 12 4.5s-7 0-8.9.5A3 3 0 0 0 1 7.1 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.9 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.9 31 31 0 0 0-.5-4.9ZM9.5 15.5v-7l6 3.5z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="site-footer__column">
+          <h3>Quick Links</h3>
+
+          <nav aria-label="Footer navigation">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="site-footer__column">
+          <h3>Contact Us</h3>
+
+          <ul class="site-footer__contact">
+            <li>
+              <span>Email:</span>
+              <a href="mailto:hello@example.com">hello@example.com</a>
+            </li>
+            <li>
+              <span>Phone:</span>
+              <a href="tel:+10000000000">+1 000 000 0000</a>
+            </li>
+            <li>
+              <span>Address:</span>
+              <p>Your Company Address</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>© 2026 Your Company. All rights reserved.</p>
+        <p>Designed with care.</p>
+      </div>
+    </footer>
+  </body>
+</html>

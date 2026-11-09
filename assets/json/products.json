@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "slug": "nova-pro-laptop",
+    "name": "Nova Pro Laptop",
+    "category": "Computing",
+    "description": "A powerful, lightweight laptop built to keep ambitious teams productive wherever work takes them.",
+    "price": 1299.0,
+    "currency": "USD",
+    "image": "assets/images/products/nova-pro-laptop.webp",
+    "imageAlt": "Nova Pro Laptop on a clean studio desk",
+    "featured": true,
+    "tags": [
+      "laptop",
+      "productivity",
+      "portable"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "orbit-wireless-headset",
+    "name": "Orbit Wireless Headset",
+    "category": "Audio",
+    "description": "Comfortable wireless audio with clear microphones for focused work and better conversations.",
+    "price": 179.0,
+    "currency": "USD",
+    "image": "assets/images/products/orbit-wireless-headset.webp",
+    "imageAlt": "Orbit Wireless Headset displayed against a neutral background",
+    "featured": true,
+    "tags": [
+      "headset",
+      "audio",
+      "wireless"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "pulse-smart-display",
+    "name": "Pulse Smart Display",
+    "category": "Displays",
+    "description": "A crisp, modern display designed to make presentations, collaboration, and everyday tasks feel effortless.",
+    "price": 449.0,
+    "currency": "USD",
+    "image": "assets/images/products/pulse-smart-display.webp",
+    "imageAlt": "Pulse Smart Display showing an abstract colorful graphic",
+    "featured": true,
+    "tags": [
+      "display",
+      "monitor",
+      "workspace"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "vertex-docking-station",
+    "name": "Vertex Docking Station",
+    "category": "Accessories",
+    "description": "Connect your essential devices through one compact hub and keep your workspace organized.",
+    "price": 129.0,
+    "currency": "USD",
+    "image": "assets/images/products/vertex-docking-station.webp",
+    "imageAlt": "Vertex Docking Station with several connection ports",
+    "featured": true,
+    "tags": [
+      "dock",
+      "connectivity",
+      "workspace"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "flow-mechanical-keyboard",
+    "name": "Flow Mechanical Keyboard",
+    "category": "Accessories",
+    "description": "A thoughtfully designed keyboard that makes long work sessions feel more comfortable and precise.",
+    "price": 99.0,
+    "currency": "USD",
+    "image": "assets/images/products/flow-mechanical-keyboard.webp",
+    "imageAlt": "Flow Mechanical Keyboard photographed from above",
+    "featured": true,
+    "tags": [
+      "keyboard",
+      "typing",
+      "workspace"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "arc-wireless-mouse",
+    "name": "Arc Wireless Mouse",
+    "category": "Accessories",
+    "description": "A compact, responsive mouse with a comfortable shape for everyday productivity.",
+    "price": 59.0,
+    "currency": "USD",
+    "image": "assets/images/products/arc-wireless-mouse.webp",
+    "imageAlt": "Arc Wireless Mouse on a simple studio surface",
+    "featured": false,
+    "tags": [
+      "mouse",
+      "wireless",
+      "workspace"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "shield-security-key",
+    "name": "Shield Security Key",
+    "category": "Security",
+    "description": "A simple hardware security key that adds an extra layer of protection to supported accounts.",
+    "price": 49.0,
+    "currency": "USD",
+    "image": "assets/images/products/shield-security-key.webp",
+    "imageAlt": "Shield Security Key photographed as a small hardware accessory",
+    "featured": false,
+    "tags": [
+      "security",
+      "authentication",
+      "accessory"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "horizon-portable-ssd",
+    "name": "Horizon Portable SSD",
+    "category": "Storage",
+    "description": "Fast, portable storage for keeping important projects and files close at hand.",
+    "price": 149.0,
+    "currency": "USD",
+    "image": "assets/images/products/horizon-portable-ssd.webp",
+    "imageAlt": "Horizon Portable SSD on a neutral background",
+    "featured": false,
+    "tags": [
+      "storage",
+      "ssd",
+      "portable"
+    ]
+  }
+]
